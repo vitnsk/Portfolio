@@ -15,6 +15,7 @@ body{
 .portfolio{
     color: #fff;
     margin-left: 50px;
+    font-size: 50px;
 }
 
 
@@ -29,7 +30,28 @@ color:antiquewhite ;
      display: flex;
     text-align: center;
     margin-left: 50px;
+  
  }
+ .navbar-brand{
+   
+   
+    box-sizing:border-box;
+    width: 300px;
+    
+ }
+
+ #navBarBr{
+    font-weight: bold;    
+    font-size: 30px;
+ }
+
+
+.nav-item{
+    font-size: 25px;
+    font-weight: normal;
+  
+}
+
  nav ul li {
     
     display: inline-block;
@@ -48,9 +70,69 @@ color:antiquewhite ;
     width: 1440px;            
  } 
 
-.myWorks{
+.textMyWorks{
     margin-top: 50px;
  margin-left: 600px;
     color: #fff;
 }
+
+.myWorks {   
+    display: grid;
+    gap: 100px 100px;
+    grid-template-columns: repeat(2,500px); 
+    justify-content: left;
+    margin-bottom: 50px;
+    margin-top: 100px;  
+    margin-left: 230px;
+
+ }
+
+.SimpleTemplate {
+    background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 526px; 
+    width: 429px;
+ }
+ 
+ .SimpleTemplate:hover {
+    background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 526px; 
+    width: 429px;
+  }
+    
+ .Calculator {
+    background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 526px; 
+    width: 429px;
+ }
+ 
+ .Calculator:hover {
+     background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-2.png);
+     background-repeat: no-repeat;
+    background-size: contain;
+    height: 526px; 
+    width: 429px;
+ }
+ 
+ /* .item3 {
+    background: url(img/70435438-11AA-4870-9F06-65BFC991AA4A-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 126px; 
+    width: 229px;
+ }
+ 
+ .item3:hover {
+     background: url(img/Y70435438-11AA-4870-9F06-65BFC991AA4A-3.png);
+     background-repeat: no-repeat;
+    background-size: contain;
+    height: 126px; 
+    width: 229px;
+ } */
+ 
  
