@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+
+
+body{
+    background: url(img/abstract-space-background-with-nebula-and-stars.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+
+.portfolio{
+    color: #fff;
+    margin-left: 50px;
+}
+
+
+nav
+ {
+background-color: blueviolet;
+color:antiquewhite ;
+/* width: 1440px; */
+ }
+
+ .container-bar{
+     display: flex;
+    text-align: center;
+    margin-left: 50px;
+ }
+ nav ul li {
+    
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 8px;
+    margin-left: 50px;
+    text-align: center;
+  }
+
+.wrapper {
+ 
+    
+    border-radius: 27px; 
+    display: flex; 
+    margin: 0 auto;
+    width: 1440px;            
+ } 
+
+.myWorks{
+    margin-top: 50px;
+ margin-left: 600px;
+    color: #fff;
+}
+ 
