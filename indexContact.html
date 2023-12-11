@@ -36,21 +36,38 @@
       </div>
     </nav>
     </div>
+    
+        <div class="main-container">  
 
-        <div class="main-container">            
-           <ul>
-          <li class="container-text">Почтовый адрес: 630102, Сибирский федеральный округ, Новосибирская область, г. Новосибирск, ул. Кирова, д. 86.</li>
-            <li class="container-text"> Телефон: +7 383 269-82-02</li>
-              <li class="container-text"> Факс: +7 383 269-82-03</li>
-                <li class="container-text">E-mail: rectorat@sibsutis.ru </li>
-                  <li class="container-text">Часы работы : понедельник-пятница с 8-30 до 17-30.
-                  </li>
-        </ul>
+          <div class="myContact-container">
+            <h3 class="textMyConact">Мои контакты</h3>
+             <ul>
+           
+              <li class="container-textMyCont"> Телефон: +7 383 269-82-02</li>
+                <li class="container-textMyCont"> Факс: +7 383 269-82-03</li>
+                  <li class="container-textMyCont">E-mail: vitn1812@yandex.ru </li>
+                    
+          </ul>
+          </div> 
+          
+          <div class="contact-container">
+            <h3>Форма обратной связи</h3>
+            <form action="http://test.easysmarthub.ru/main.php" method="post">
+               <input class="contact-input"  type="text" name="name" placeholder="Введите имя:" required>
+               <br>
+               <input class="contact-input" type="email" name="email" placeholder="Введите почту:" required>
+               <br>
+               <input class="contact-input" type="text" name="header" placeholder="Введите текст заголовка" required>
+               <br>
+               <textarea  class="contact-input"  name="message" id="" cols="30" rows="10"></textarea>
+               <br>
+               <button class="contact-input" type="submit">Отправить</button>
+            </form>
+        </div>       
+
           <img class="containerNav-img"src="img/Contacts.png"></img>
         
         </div>
-
-
 
         <script src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

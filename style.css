@@ -7,6 +7,8 @@ body{
     background: url(img/abstract-space-background-with-nebula-and-stars.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    src: url('fonts/Roboto-Regular.ttf') format("truetype");
 } 
 
 .portfolio{
@@ -112,6 +114,7 @@ color:antiquewhite ;
     background-size: contain;
     border: 5px solid #2eb53b;
     border-radius: 10px;
+    filter: brightness(90%);
     height: 220px;     
     width: 329px;
   }
@@ -132,6 +135,7 @@ color:antiquewhite ;
     background-size: contain;
     border: 5px solid #2eb53b;
     border-radius: 10px;
+    filter: brightness(90%);
     height: 220px;     
     width: 329px;
  }
@@ -141,7 +145,7 @@ color:antiquewhite ;
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #f4f6f7;
-    border-radius: 10px;
+    border-radius: 10px;    
     height: 220px; 
     width: 329px;
  }
@@ -152,6 +156,7 @@ color:antiquewhite ;
     background-size: contain;
     border: 5px solid #2eb53b;
     border-radius: 10px;
+    filter: brightness(90%);
     height: 220px;     
     width: 329px;
  }
@@ -168,7 +173,8 @@ color:antiquewhite ;
    margin-bottom: 10px;
    margin-right: 10px;   
    margin-left: 50px;
-   margin-top: 50px;   
+   margin-top: 50px;
+
    width: 700px;    
  }
 
@@ -192,3 +198,34 @@ color:antiquewhite ;
    width: 700px; 
  
  }
+
+ .container-textMyCont{
+   font-size: 20px;
+   margin-bottom: 10px;
+   margin-right: 10px;   
+   margin-left: 50px;
+   margin-top: 50px;   
+   width: 250px; 
+ 
+ }
+ .contact-container {
+   text-align: center;
+   width: 900px;  
+   margin-top: 50px;
+   
+ 
+} 
+
+.contact-input{
+   background-color: rgb(197, 187, 207);
+   margin-bottom: 10px;
+ 
+}
+
+.myContact-container{
+margin-top:50px;
+}
+
+.textMyConact{
+   text-align: center;
+}
