@@ -2,42 +2,34 @@
     margin: 0;
     padding: 0;
     }
-    
-
 
 body{
     background: url(img/abstract-space-background-with-nebula-and-stars.png);
     background-repeat: no-repeat;
     background-size: cover;
-
 } 
 
 .portfolio{
     color: #fff;
-    margin-left: 50px;
     font-size: 50px;
+    margin-left: 50px;
 }
 
 
-nav
- {
+nav {
 background-color: blueviolet;
 color:antiquewhite ;
 /* width: 1440px; */
  }
 
  .container-bar{
-     display: flex;
-    text-align: center;
+    display: flex;   
     margin-left: 50px;
-  
+    text-align: center;
  }
- .navbar-brand{
-   
-   
+ .navbar-brand{   
     box-sizing:border-box;
-    width: 300px;
-    
+    width: 300px;    
  }
 
  #navBarBr{
@@ -48,12 +40,14 @@ color:antiquewhite ;
 
 .nav-item{
     font-size: 25px;
-    font-weight: normal;
-  
+    font-weight: normal;  
 }
 
- nav ul li {
-    
+.nav-li:hover {
+   color: #2eb53b;   
+}
+
+ nav ul li {    
     display: inline-block;
     list-style-type: none;
     padding-top: 8px;
@@ -61,9 +55,7 @@ color:antiquewhite ;
     text-align: center;
   }
 
-.wrapper {
- 
-    
+.wrapper {    
     border-radius: 27px; 
     display: flex; 
     margin: 0 auto;
@@ -71,9 +63,14 @@ color:antiquewhite ;
  } 
 
 .textMyWorks{
-    margin-top: 50px;
- margin-left: 600px;
-    color: #fff;
+   color: #fff;
+   margin-top: 50px;
+   margin-left: 600px;
+    
+}
+
+.textWork:hover {
+   color: #2eb53b;   
 }
 
 .myWorks {   
@@ -81,9 +78,7 @@ color:antiquewhite ;
     gap: 100px 100px;
     grid-template-rows: 50px 50px;
     grid-template-columns: repeat(3,300px); 
-    justify-content: center;
-  
-   
+    justify-content: center;   
     /* margin-bottom: 50px; */
     margin-top: 80px;  
     /* margin-left: 50px; */
@@ -91,16 +86,13 @@ color:antiquewhite ;
  }
 
 
-
  .textWork {
-   margin-top: 100px;
-   color: #fff;
-   text-decoration: none;
-font-size: 20px;
- 
-   
    align-items: center;
+   color: #fff;
+   font-size: 20px;
+   margin-top: 100px;
    margin-left: 100px;
+   text-decoration: none;   
  }
 
 
@@ -110,11 +102,8 @@ font-size: 20px;
     background-size: contain;
     border: 5px solid #f4f6f7;
     border-radius: 10px;
-    height: 220px; 
-    
-    width: 329px;
-
-    
+    height: 220px;     
+    width: 329px;    
  }
  
  .SimpleTemplate:hover {
@@ -132,8 +121,7 @@ font-size: 20px;
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #f4f6f7;
-    border-radius: 10px;
-  
+    border-radius: 10px;  
     height: 220px; 
     width: 329px;
  }
@@ -159,8 +147,8 @@ font-size: 20px;
  }
  
  .ToDoList:hover {
-     background: url(img/ToDoList.png);
-       background-repeat: no-repeat;
+    background: url(img/ToDoList.png);
+    background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #2eb53b;
     border-radius: 10px;
@@ -171,39 +159,36 @@ font-size: 20px;
  .main-container{
    color: #fff;   
    display: flex;
-
-
  }
 
  .container-img{
-
+   border: 5px solid #f4f6f7;
+   border-radius: 20px;
+   box-sizing: border-box;
    margin-bottom: 10px;
    margin-right: 10px;   
    margin-left: 50px;
    margin-top: 50px;   
-   width: 700px;  
-   box-sizing: border-box;
-
-   border: 5px solid #f4f6f7;
-    border-radius: 20px;
+   width: 700px;    
  }
 
  .containerNav-img{
-
-   margin-bottom: 10px;
-   margin-right: 10px;   
-   margin-left: 50px;
-   margin-top: 50px;   
-   width: 650px;  
-   box-sizing: border-box;
    border: 2px solid #f4f6f7;
-    border-radius: 20px;
- }
- .container-text{
+   border-radius: 20px;
+   box-sizing: border-box;
    margin-bottom: 10px;
    margin-right: 10px;   
    margin-left: 50px;
    margin-top: 50px;   
-   width: 700px;  
+   width: 650px;    
+ }
+
+ .container-text{
    font-size: 20px;
+   margin-bottom: 10px;
+   margin-right: 10px;   
+   margin-left: 50px;
+   margin-top: 50px;   
+   width: 700px; 
+ 
  }
