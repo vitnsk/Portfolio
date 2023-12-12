@@ -177,6 +177,7 @@ color:antiquewhite ;
    font-size: 20px;
    margin:50px 10px 10px 50px;   
    width: 700px;  
+   margin-bottom: 50px;
  }
 
  .container-textMyCont{
@@ -209,4 +210,28 @@ margin-top:50px;
 
 .textMyConact{
    text-align: center;
+}
+
+.seeGitHub{
+   background-color: rgb(38, 10, 66); 
+   border: 1px solid #fff;
+   border-radius: 10px;
+   color: white;
+   font-size: 18px;
+   padding: 5px;   
+   margin-left: 250px;
+   text-align: center;
+   text-decoration: none;   
+}
+
+.seeGitHub:hover{
+   background-color: rgb(38, 10, 66); 
+   border: 1px solid #2eb53b;
+   border-radius: 10px;
+   color: #2eb53b;;
+   font-size: 18px;
+   padding: 5px;   
+   margin-left: 250px;
+   text-align: center;
+   text-decoration: none;   
 }
