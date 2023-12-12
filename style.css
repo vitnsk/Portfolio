@@ -95,8 +95,8 @@ color:antiquewhite ;
     background-size: contain;
     border: 5px solid #f4f6f7;
     border-radius: 20px;
-    height: 220px;     
-    width: 329px;    
+    height: 219px;     
+    width: 327px;    
  }
  
  .SimpleTemplate:hover {
@@ -106,8 +106,8 @@ color:antiquewhite ;
     border: 5px solid #2eb53b;
     border-radius: 20px;
     filter: brightness(90%);
-    height: 220px;     
-    width: 329px;
+    height: 219px;     
+    width: 327px;
   }
     
  .Calculator {
@@ -116,8 +116,8 @@ color:antiquewhite ;
     background-size: contain;
     border: 5px solid #f4f6f7;
     border-radius: 20px;  
-    height: 220px; 
-    width: 329px;
+    height: 219px; 
+    width: 327px;
  }
  
  .Calculator:hover {
@@ -127,8 +127,8 @@ color:antiquewhite ;
     border: 5px solid #2eb53b;
     border-radius: 20px;
     filter: brightness(90%);
-    height: 220px;     
-    width: 329px;
+    height: 219px;     
+    width: 327px;
  }
  
  .ToDoList {
@@ -137,8 +137,8 @@ color:antiquewhite ;
     background-size: contain;
     border: 5px solid #f4f6f7;
     border-radius: 20px;    
-    height: 220px; 
-    width: 329px;
+    height: 219px; 
+    width: 327px;
  }
  
  .ToDoList:hover {
@@ -148,8 +148,8 @@ color:antiquewhite ;
     border: 5px solid #2eb53b;
     border-radius: 20px;
     filter: brightness(90%);
-    height: 220px;     
-    width: 329px;
+    height: 219px;     
+    width: 327px;
  }
  
  .main-container{
