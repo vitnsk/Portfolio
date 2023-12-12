@@ -6,11 +6,11 @@ rotateImg(document.querySelector("#imgTDS"));
 
 function rotateImg(slide) {
 slide.addEventListener("mouseover", function() {
-slide.style.transform = "rotateZ(-3deg)";
+slide.style.transform = "scale(1.1)";
 });
 
 slide.addEventListener("mouseout", function() {
-slide.style.transform = "rotateZ(0deg)";
+slide.style.transform = "scale(1)";
 });
 }
 
