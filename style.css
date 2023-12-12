@@ -170,14 +170,13 @@ color:antiquewhite ;
    border-radius: 20px;
    box-sizing: border-box;
    margin:50px 10px 10px 50px;  
-   width: 650px;    
+   width: 600px;    
  }
 
  .container-text{
    font-size: 20px;
-   margin:50px 10px 10px 50px;   
-   width: 700px;  
-   margin-bottom: 50px;
+   margin:50px 50px 50px 100px;   
+   width: 650px;   
  }
 
  .container-textMyCont{
