@@ -1,10 +1,10 @@
 let slide;
 
-rotateImg(document.querySelector("#imgST"));
-rotateImg(document.querySelector("#imgCalc"));
-rotateImg(document.querySelector("#imgTDS"));
+transformImg(document.querySelector("#imgST"));
+transformImg(document.querySelector("#imgCalc"));
+transformImg(document.querySelector("#imgTDS"));
 
-function rotateImg(slide) {
+function transformImg(slide) {
 slide.addEventListener("mouseover", function() {
 slide.style.transform = "scale(1.1)";
 });
