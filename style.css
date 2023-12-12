@@ -17,11 +17,9 @@ body{
     margin-left: 50px;
 }
 
-
 nav {
 background-color: blueviolet;
 color:antiquewhite ;
-/* width: 1440px; */
  }
 
  .container-bar{
@@ -29,6 +27,7 @@ color:antiquewhite ;
     margin-left: 50px;
     text-align: center;
  }
+
  .navbar-brand{   
     box-sizing:border-box;
     width: 300px;    
@@ -38,7 +37,6 @@ color:antiquewhite ;
     font-weight: bold;    
     font-size: 30px;
  }
-
 
 .nav-item{
     font-size: 25px;
@@ -58,7 +56,6 @@ color:antiquewhite ;
   }
 
 .wrapper {    
-    border-radius: 27px; 
     display: flex; 
     margin: 0 auto;
     width: 1440px;            
@@ -67,8 +64,7 @@ color:antiquewhite ;
 .textMyWorks{
    color: #fff;
    margin-top: 50px;
-   margin-left: 600px;
-    
+   margin-left: 600px;    
 }
 
 .textWork:hover {
@@ -80,13 +76,9 @@ color:antiquewhite ;
     gap: 100px 100px;
     grid-template-rows: 50px 50px;
     grid-template-columns: repeat(3,300px); 
-    justify-content: center;   
-    /* margin-bottom: 50px; */
-    margin-top: 80px;  
-    /* margin-left: 50px; */
-
+    justify-content: center;    
+    margin-top: 80px; 
  }
-
 
  .textWork {
    align-items: center;
@@ -97,23 +89,22 @@ color:antiquewhite ;
    text-decoration: none;   
  }
 
-
 .SimpleTemplate {
     background: url(img/SST12.png);
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #f4f6f7;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 220px;     
     width: 329px;    
  }
  
  .SimpleTemplate:hover {
-   background: url(img/SST12.png);
+    background: url(img/SST12.png);
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #2eb53b;
-    border-radius: 10px;
+    border-radius: 20px;
     filter: brightness(90%);
     height: 220px;     
     width: 329px;
@@ -124,17 +115,17 @@ color:antiquewhite ;
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #f4f6f7;
-    border-radius: 10px;  
+    border-radius: 20px;  
     height: 220px; 
     width: 329px;
  }
  
  .Calculator:hover {
-     background: url(img/Calc2.png);
-     background-repeat: no-repeat;
+    background: url(img/Calc2.png);
+    background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #2eb53b;
-    border-radius: 10px;
+    border-radius: 20px;
     filter: brightness(90%);
     height: 220px;     
     width: 329px;
@@ -145,7 +136,7 @@ color:antiquewhite ;
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #f4f6f7;
-    border-radius: 10px;    
+    border-radius: 20px;    
     height: 220px; 
     width: 329px;
  }
@@ -155,7 +146,7 @@ color:antiquewhite ;
     background-repeat: no-repeat;
     background-size: contain;
     border: 5px solid #2eb53b;
-    border-radius: 10px;
+    border-radius: 20px;
     filter: brightness(90%);
     height: 220px;     
     width: 329px;
@@ -170,11 +161,7 @@ color:antiquewhite ;
    border: 5px solid #f4f6f7;
    border-radius: 20px;
    box-sizing: border-box;
-   margin-bottom: 10px;
-   margin-right: 10px;   
-   margin-left: 50px;
-   margin-top: 50px;
-
+   margin:50px 10px 10px 50px;   
    width: 700px;    
  }
 
@@ -182,52 +169,38 @@ color:antiquewhite ;
    border: 2px solid #f4f6f7;
    border-radius: 20px;
    box-sizing: border-box;
-   margin-bottom: 10px;
-   margin-right: 10px;   
-   margin-left: 50px;
-   margin-top: 50px;   
+   margin:50px 10px 10px 50px;  
    width: 650px;    
  }
 
  .container-text{
    font-size: 20px;
-   margin-bottom: 10px;
-   margin-right: 10px;   
-   margin-left: 50px;
-   margin-top: 50px;   
-   width: 700px; 
- 
+   margin:50px 10px 10px 50px;   
+   width: 700px;  
  }
 
  .container-textMyCont{
    font-size: 20px;
-   margin-bottom: 10px;
-   margin-right: 10px;   
-   margin-left: 50px;
-   margin-top: 50px;   
-   width: 250px; 
- 
+   margin:50px 10px 10px 50px;   
+   width: 250px;  
  }
- .contact-container {
+
+ .contact-container {   
+   margin-top: 50px; 
    text-align: center;
    width: 900px;  
-   margin-top: 50px;
-   
- 
 } 
 
 .contact-input{
    background-color: rgb(197, 187, 207);
    margin-bottom: 10px;
-   padding: 5px;
- 
+   padding: 5px; 
 }
-#contactButton
-{
-   background-color: rgb(38, 10, 66);
-   color: white;
+
+#contactButton{
+   background-color: rgb(38, 10, 66);  
    border: 2px solid #eef1f4;
-   
+   color: white;
 }
 
 .myContact-container{
