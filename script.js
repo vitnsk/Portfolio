@@ -1,8 +1,8 @@
-// document.querySelector("#img").style.transform = "rotate(90deg)"
+let slide;
+
 rotateImg(document.querySelector("#imgST"));
 rotateImg(document.querySelector("#imgCalc"));
 rotateImg(document.querySelector("#imgTDS"));
-
 
 function rotateImg(slide) {
 slide.addEventListener("mouseover", function() {
