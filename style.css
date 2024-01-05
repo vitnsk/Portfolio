@@ -153,6 +153,7 @@ color:antiquewhite ;
  }
  
  .main-container{
+   box-sizing: border-box;
    color: #fff;   
    display: flex;
  }
@@ -165,6 +166,10 @@ color:antiquewhite ;
    width: 700px;    
  }
 
+ /* .skills-list {
+   box-sizing: border-box;
+   width: 600px;    
+ } */
  .containerNav-img{
    border: 2px solid #f4f6f7;
    border-radius: 20px;
