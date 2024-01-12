@@ -14,7 +14,7 @@ body{
 
 .portfolio{
     color: #fff;
-    font-size: 50px;
+    font-size: 3.1em;
     margin-left: 50px;
 }
 
@@ -31,13 +31,15 @@ color:antiquewhite ;
 
  .navbar-brand{   
     box-sizing:border-box;
+   
     /* width: 300px;   */
     max-width: 300px;    
  }
 
  #navBarBr{
     font-weight: bold;    
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 1.9em;
  }
 
 .nav-item{
@@ -59,7 +61,7 @@ color:antiquewhite ;
 
 .wrapper {    
     display: flex; 
-    margin: 0 auto;
+    /* margin: auto auto; */
     max-width: 100%;            
  } 
 
@@ -82,12 +84,14 @@ color:antiquewhite ;
     grid-template-columns: repeat(3,300px); 
     justify-content: center;    
     margin-top: 80px; 
+    /* flex-wrap: wrap; */
  }
 
  .textWork {
    align-items: center;
    color: #fff;
-   font-size: 20px;
+   font-size: 1.4em;
+   /* font-size: 20px; */
    margin-top: 100px;
    margin-left: 100px;
    text-decoration: none;   
@@ -96,7 +100,7 @@ color:antiquewhite ;
 .SimpleTemplate {
     background: url(img/SST12.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 5px solid #f4f6f7;
     border-radius: 20px;
     height: 219px;     
@@ -107,7 +111,7 @@ color:antiquewhite ;
  .SimpleTemplate:hover {
     background: url(img/SST12.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 5px solid #2eb53b;
     border-radius: 20px;
     filter: brightness(90%);
@@ -119,18 +123,20 @@ color:antiquewhite ;
  .Calculator {
     background: url(img/Calc2.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 5px solid #f4f6f7;
     border-radius: 20px;  
-    height: 219px; 
+    height: 219px;
+    /* height: 14em; */
+    /* max-width: 327px;
+    width: 100%; */
     width: 327px;
-    
  }
  
  .Calculator:hover {
     background: url(img/Calc2.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 5px solid #2eb53b;
     border-radius: 20px;
     filter: brightness(90%);
@@ -141,7 +147,7 @@ color:antiquewhite ;
  .ToDoList {
     background: url(img/ToDoList.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 5px solid #f4f6f7;
     border-radius: 20px;    
     height: 219px; 
@@ -151,7 +157,7 @@ color:antiquewhite ;
  .ToDoList:hover {
     background: url(img/ToDoList.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 5px solid #2eb53b;
     border-radius: 20px;
     filter: brightness(90%);
@@ -163,6 +169,9 @@ color:antiquewhite ;
    box-sizing: border-box;
    color: #fff;   
    display: flex;
+   /* max-width: 1440px; 
+   width: 100%; */
+   /* flex-wrap: wrap; */
  }
 
  .container-img{
@@ -170,7 +179,12 @@ color:antiquewhite ;
    border-radius: 20px;
    box-sizing: border-box;
    margin:50px 10px 10px 50px;   
-   max-width: 700px;    
+   object-fit: cover;
+   justify-content: center;  
+   /* height: 100%; */
+   max-width: 700px; 
+   width: 100%; 
+   /* width: 500vw; */
  }
 
  /* .skills-list {
@@ -181,26 +195,35 @@ color:antiquewhite ;
    border: 2px solid #f4f6f7;
    border-radius: 20px;
    box-sizing: border-box;
+   /* justify-content: center;   */
    margin:50px 10px 10px 50px;  
-   max-width: 600px;    
+   height: 100%;
+   max-width: 600px;
+   /* width: 100%;  */
  }
 
  .container-text{
-   font-size: 20px;
-   margin:50px 50px 50px 100px;   
-  max-width: 650px;   
+   /* font-size: 20px; */
+   font-size: 1.4em;
+   margin:50px 50px 50px 50px;   
+  max-width: 650px;
+  /* width: 100%;  */
+  justify-content: center;  
  }
 
  .container-textMyCont{
-   font-size: 20px;
+   /* font-size: 20px; */
+   font-size: 1.2em;
    margin:50px 10px 10px 50px;   
    max-width: 250px;  
+   width: 100%; 
  }
 
  .contact-container {   
    margin-top: 50px; 
    text-align: center;
-   width: 900px;  
+   max-width: 500px;  
+   width: 100%; 
 } 
 
 .contact-input{
@@ -228,9 +251,11 @@ margin-top:50px;
    border: 1px solid #fff;
    border-radius: 10px;
    color: white;
-   font-size: 18px;
+   font-size: 1.1em;
+   /* font-size: 18px; */
    padding: 5px;   
-   margin-left: 250px;
+   /* margin-left: 250px; */
+   margin-left: 15%;
    text-align: center;
    text-decoration: none;   
 }
@@ -240,9 +265,11 @@ margin-top:50px;
    border: 1px solid #2eb53b;
    border-radius: 10px;
    color: #2eb53b;;
-   font-size: 18px;
+   font-size: 1.1em;
+   /* font-size: 18px; */
    padding: 5px;   
-   margin-left: 250px;
+   /* margin-left: 250px; */
+   margin-left: 15%;
    text-align: center;
    text-decoration: none;   
 }
