@@ -14,8 +14,12 @@ body{
 
 .portfolio{
     color: #fff;
-    font-size: 3.1em;
-    margin-left: 50px;
+    /* font-size: 3.1em; */
+    font-size: 250%;
+    /* margin-left: 50px; */
+    margin-left: 4%;
+    word-break: break-all;
+    /* white-space: pre-wrap; */
 }
 
 nav {
@@ -25,13 +29,13 @@ color:antiquewhite ;
 
  .container-bar{
     display: flex;   
-    margin-left: 50px;
+    /* margin-left: 4%; */
     text-align: center;
  }
 
  .navbar-brand{   
     box-sizing:border-box;
-   
+    word-wrap: normal;
     /* width: 300px;   */
     max-width: 300px;    
  }
@@ -43,7 +47,8 @@ color:antiquewhite ;
  }
 
 .nav-item{
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: 1.7em;
     font-weight: normal;  
 }
 
@@ -77,15 +82,135 @@ color:antiquewhite ;
    color: #2eb53b;   
 }
 
+/* @media screen and (max-width: 1990px) { */
 .myWorks {   
-    display: grid;
-    gap: 100px 100px;
-    grid-template-rows: 50px 50px;
-    grid-template-columns: repeat(3,300px); 
-    justify-content: center;    
-    margin-top: 80px; 
-    /* flex-wrap: wrap; */
- }
+   display: grid;
+   gap: 100px 100px;
+   grid-template-rows: 50px 50px;
+   grid-template-columns: repeat(3,300px); 
+   justify-content: center;    
+   margin-top: 5%; 
+   /* flex-wrap: wrap; */
+}
+/* } */
+
+@media screen and (max-width: 1199px)  {
+
+   body{
+      background: url(img/abstract-space2.png);
+      /* background-repeat: no-repeat; */
+      background-size: cover;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      src: url('fonts/Roboto-Regular.ttf') format("truetype");
+      /* width: 100%;  */
+  } 
+
+
+.myWorks {   
+   display: grid;
+   gap: 150px;
+   grid-template-rows: 0px 50px 0px 50px; 
+   grid-template-columns: 300px 300px; 
+   /* justify-content: center;     */
+   /* margin-top: 5px;  */
+   /* flex-wrap: wrap; */
+}
+   #imgST{
+      grid-column: 1;
+      grid-row: 1;
+   
+    }
+   
+    #imgCalc{
+      grid-column: 2;
+      grid-row: 1;
+    }
+   
+    #imgTDL{
+      grid-column: 1;
+      grid-row: 3;
+   
+    }
+    
+    #txtST{
+      grid-column: 1;
+      grid-row: 2;
+    }
+   
+   #txtCalc{
+      grid-column: 2;
+      grid-row: 2;
+    }
+   
+    #txtTDL{
+      grid-column: 1;
+      grid-row:  4;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 899px)  {
+
+   body{
+      background: url(img/abstract-space2.png);
+      /* background-repeat: no-repeat; */
+      background-size: cover;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
+      src: url('fonts/Roboto-Regular.ttf') format("truetype");
+      /* width: 100%;  */
+  } 
+
+
+.myWorks {   
+   display: grid;
+   
+   grid-template-rows: 0px 50px 0px 50px 00px 50px; 
+   grid-template-columns: 340px; 
+   /* justify-content: center;     */
+   /* margin-top: 5px;  */
+   /* flex-wrap: wrap; */
+}
+   #imgST{
+      grid-column: 1;
+      grid-row: 1;
+   
+    }
+   
+    #imgCalc{
+      grid-column: 1;
+      grid-row: 3;
+    }
+   
+    #imgTDL{
+      grid-column: 1;
+      grid-row: 5;
+   
+    }
+    
+    #txtST{
+      grid-column: 1;
+      grid-row: 2;
+    }
+   
+   #txtCalc{
+      grid-column: 1;
+      grid-row: 4;
+    }
+   
+    #txtTDL{
+      grid-column: 1;
+      grid-row:  6;
+    }
+
+
+
+}
+
+
 
  .textWork {
    align-items: center;
@@ -217,6 +342,7 @@ color:antiquewhite ;
    margin:50px 10px 10px 50px;   
    max-width: 250px;  
    width: 100%; 
+   white-space: nowrap;
  }
 
  .contact-container {   
