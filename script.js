@@ -3,7 +3,7 @@ if(document.querySelector("#imgST")||document.querySelector("#imgCalc")||documen
 {
 transformImg(document.querySelector("#imgST"));
 transformImg(document.querySelector("#imgCalc"));
-transformImg(document.querySelector("#imgTDS"));
+transformImg(document.querySelector("#imgTDL"));
 }
 function transformImg(slide) {
 slide.addEventListener("mouseover", function() {
