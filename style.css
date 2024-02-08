@@ -277,6 +277,16 @@ color:antiquewhite ;
    width: 100%; 
   }
   
+  .container-img:hover{
+   border: 5px solid #2eb53b;
+   border-radius: 20px;
+   box-sizing: border-box;
+   margin:50px 10px 10px 50px;   
+   object-fit: cover;
+   max-width: 700px; 
+   width: 100%; 
+  }
+
  .containerNav-img{
    border: 2px solid #f4f6f7;
    border-radius: 20px;
@@ -286,6 +296,7 @@ color:antiquewhite ;
    max-width: 600px;
  }
 
+ 
  .container-text{
    font-size: 1.4em;
    margin:50px 50px 50px 50px;   
@@ -306,6 +317,16 @@ color:antiquewhite ;
    border: 5px solid #f4f6f7;
    border-radius: 20px;
    box-sizing: border-box;
+   margin:50px 10px 10px 0px;   
+   object-fit: cover;  
+   height: 100%;  
+   width: 100%;    
+ }
+
+ .container-img:hover{
+   border: 5px solid #2eb53b;
+   border-radius: 20px;
+   box-sizing: border-box;   
    margin:50px 10px 10px 0px;   
    object-fit: cover;  
    height: 100%;  
@@ -374,7 +395,7 @@ margin-top:50px;
    background-color: rgb(38, 10, 66); 
    border: 1px solid #2eb53b;
    border-radius: 10px;
-   color: #2eb53b;;
+   color: #2eb53b;
    font-size: 1.1em; 
    padding: 5px;   
    margin-left: 15%;   
